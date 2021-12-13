@@ -1,36 +1,50 @@
 {
-  "campaigns": [
-    {
-      "turbines": [
-        {
-          "name": "E1",
-          "GPS": [2.009, 45.999]
-        },
-        {
-          "name": "E2",
-          "GPS": [2.008, 45.998]
-        }
-      ],
-      "name": "campaign_1",
-      "farm_name": "farm_1",
-      "due_date": "2022-01-01",
-      "kind": "pales"
-    },
-    {
-      "turbines": [
-        {
-          "name": "E3",
-          "GPS": [2.009, 45.999]
-        },
-        {
-          "name": "E4",
-          "GPS": [2.008, 45.998]
-        }
-      ],
-      "name": "campaign_2",
-      "farm_name": "farm_2",
-      "due_date": "2022-03-01",
-      "kind": "mat"
-    }
-  ]
+  "get_campaigns": {
+    "campaigns": [
+      {
+        "turbines": [
+          {
+            "name": "E1",
+            "GPS": [
+              2.009,
+              45.999
+            ]
+          },
+          {
+            "name": "E2",
+            "GPS": [
+              2.008,
+              45.998
+            ]
+          }
+        ],
+        "name": "campaign_1",
+        "farm_name": "farm_1",
+        "due_date": "2022-01-01",
+        "kind": "pales"
+      },
+      {
+        "turbines": [
+          {
+            "name": "E3",
+            "GPS": [
+              2.009,
+              45.999
+            ]
+          },
+          {
+            "name": "E4",
+            "GPS": [
+              2.008,
+              45.998
+            ]
+          }
+        ],
+        "name": "campaign_2",
+        "farm_name": "farm_2",
+        "due_date": "2022-03-01",
+        "kind": "mat"
+      }
+    ]
+  }
 }
